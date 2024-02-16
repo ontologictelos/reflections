@@ -1,33 +1,35 @@
-# **_Reflections_**
+# **_Reflections Thursday 02, 2024_**
 
-## **assignment questions**
+## Reflections on JavaScript
 
-1. What is the terminal?
-2. What is the prompt?
-3. What is a directory?
-4. What is cd?
-5. What is npm? What does it stand for? What is it used for?
-6. What file must be present for npm to work? (manifest file)
-7. How do we add a script to package.json?
-8. How do we install a package? Why would we want to do this?
-9. What is Vite?
+### - Is there differing opinions on how we ought to think about JavaScript and ECMA Script?
 
-### **reflections:**
+>"After its adoption outside of Netscape, a standard document was written to describe the way the JavaScript language should work so that the various pieces of software that claimed to support JavaScript were actually talking about the same language. This is called the ECMAScript standard, after the Ecma International organization that did the standardization. In practice, the terms ECMAScript and JavaScript can be used interchangeably—they are two names for the same language."- Eloquent JavaScript
 
-#### Terminal: What it is and how to use it
+Within Eloquent JavaScript the author states that JavaScript and ECMA Script are interchangeable. Yet within the mozilla document there is a section detailing with what ECMA is and it seems like a standardization of JavaScript through out the web.
 
-When asking the question what is the terminal, we cannot really answer that question without talking about why it is preferable than using the gooey. In essence there is not really a difference between the gooey and the terminal they do the same things. BUT, using the terminal is far more efficient. In this way the user can create a file and enter that file add or create changes much faster and with less effort than if the user used the gooey. In another sense using the terminal to update software and or load software is way more efficient than using the gooey. The terminal also uses less power and runs less programs sense it doesn't have to run any graphics or run images.
+>JavaScript is standardized at Ecma International — the European association for standardizing information and communication systems (ECMA was formerly an acronym for the European Computer Manufacturers Association) to deliver a standardized, international programming language based on JavaScript.
 
-What the terminal is though with all this in mind is in essence a text based interface with your device that allows you to create files, run programs, and update/ install software. Some synonyms are git bash or warp. I understand these are programs that we use to access the terminal but the terminal is a "place" where we directly talk to the computer and give it instructions.
+Here I see that they use words such as "based". So within mozilla are they talking about languages based on A standardization of JavaScript that has been developed into new languages? It seems logical to follow that there are different versions of the same language? Kind of like old english and modern english and slang?
 
-While in the terminal we execute commands via a prompt, which is just a nerdy term for where you write specific commands that the computer understands. In essence think a google search bar, we type stuff in there and if the search engine recognizes something it fetches and brings it to you. But if you type a query and it doesn't know anything about the search you get a sort of error message. In the same way if I type a command into the prompt the computer does not understand either nothing will happen or I will get an error message.
+In any case ECMA is an interesting organization. This idea of standardizing programming languages to have a set of "best practices" that is common within the web. The web becomes (at least behind the curtain) unbiased to a particular countries innovation in programming language making the web a place of uniformity in practice.
 
-When thinking of a directory we ought to think basically of the finder icon and opening that and we see a bunch of folders. Translating that into the terminal we can enter a directory giving us access to those folders. For example I have a SWICSpring folder. To access this in the terminal I would use cd SWICSpring and if I typed ls (list command) into the prompt i would see what files are in that directory. cd as a command in essence just tells the terminal i want to move directories from SWICSpring into Web Development directory (going down a level).
+___
 
-#### NPM: [Node Package Manager](https://www.youtube.com/watch?v=P3aKRdUyr0s)
+### - What is JavaScript?
 
-This is kind of complicated and I am not 100% sure I understand what NPM is. But Im all about getting things wrong to better understand what things are (haha philosophy in a nutshell). From my understanding NPM is a "page" that we can go to, to get free open source software that helps us be more effect with our coding. In this way we "buy" the parts for a car and don't have to build the parts from the ground up. From my understanding what we have used it for though is to translate our code for different parts of the web and or to optimize it for certain browsers?
+I found this to be really interesting. I really only know HTML and CSS. I took a into to C# and the term "object oriented programming" was used but wasn't really clear on what this meant.
 
-In order for us to use NPM we have to have a [package.json](https://www.youtube.com/watch?v=4xR2nV7MGfE). I am also kind of fuzzy on this. From my understanding package.json in essence lives at the root of our NPM folder and grounds (or anchors) all of our code. Package.json gives our code its rules and identity in a way from my understanding. Package.json is often called the manifest file as it gives a general description of our code.
+>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). -Mozilla
 
-Installing NPM we just go to our terminal and type "npmi" into the prompt. Through this i believe a package.json is included in npm. While we installed npm and through that package.json we got a tool called vite. Vite is in essence an emulator that shows what our code would look like through a browser. Vite is just a tool that stream lines emulating our css.
+#### JavaScript is
+
+1. object-oriented scripting language.
+2. A cross-platform language.
+3. Can be used (in different forms) in communicating with servers (Node.JS).
+
+___
+
+When looking into what "object-oriented" meant it lead to some interesting thoughts. Perhaps not thoughts but perhaps differentiation between languages. HTML and CSS are built under different 'orientations' or 'objectives'. While JavaScript is built as a interactive building language. While there is more that can be said here such as talking about "the four pillars" of object oriented programming (Encapsulation, Abstraction, Inheritance, Polymorphism).
+
+Through some more research on what JavaScript is it seems that Java is one of the fundamental building languages (alongside HTML & CSS). I would be interested to see how other languages cover these three considering what we can do with these three alone why would we need others? This does assume that every OS understands and recognizes these languages (which they do) but every OS (ios, android, windows) seems to have languages associated with each OS in addition to HTML,CSS, JavaScript.
