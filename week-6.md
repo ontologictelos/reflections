@@ -1,7 +1,6 @@
-Homework for 02/20/2024
-# What does it all mean?
+# Homework for 02/20/2024
 
-## Reflections on Node Template
+## What does it all mean? Reflections on Node Template
 
 ### Files pushed to Github
 - .eslintrc.cjs
