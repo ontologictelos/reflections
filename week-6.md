@@ -1,3 +1,4 @@
+Homework for 02/20/2024
 # What does it all mean?
 
 ## Reflections on Node Template
@@ -42,5 +43,30 @@
     - Integrate with eslint
         - In vs code open file eslint.js and within extends add in “prettier” (doing this ensures that the style format established earlier ‘airbnb-base’ works along side “prettier”
 - Create git.ignore file 
-    - This tells GitHub to ignore certain pieces of information. This ignores nodes which we don’t want on GitHub. 
+    - This tells GitHub to ignore certain pieces of information. This ignores nodes which we don’t want on GitHub.
+    - 
+# Homework for 02/22/2024
+
+## Reflections
+
+- Video 1 Reflections/ notes
+    - What is a function?
+        - Functions are like verbs
+            - Question: it seems as though function cannot exist by itself so is it logical to assume that function is predicated on something else? In this case “addNumbers”? You can’t just type in “addNumbers” and JS do what you want it to do does it need that function attribute in order to understand that we want it to add numbers? 
+    - Camel Case: 
+        - The first letter/word is lower case and the second letter of the second word is capitalized.
+            - Question: Why? We used camel case in my c# class but I never understood why this was important. Is this for us or the machine? 
+    - Function paramaters 
+        - This seems pretty strait forward. I am instructing “function addNumbers” to ONLY add two numbers. I would imagine in more intermediate JS where you have a input form and the user adds three numbers into the box the program would throw an exception sense the inputs are outside of the parameters, unless we use some sort of catch instructions. I am not sure if exception and catch are exclusive to c# or they’re pretty universal even if the implementation is different. 
+    - Return function
+        - Is there a term for different variables (for lack of a better word)? Between ‘function’ and ‘return’ these are specific instructions we are giving the machine to do x task. We are in essence telling the machine I want you to do something (function) and give me the answer (return). While addNumbers is more like this is what we want to figure out. These terms are different in nature as to what is being ask and inquired. 
+- Video 2 reflections/ notes
+    - Paramaters vs Arguments
+        - Parameters seem to be like theoretical science (working only with theory and variables). It is just that setting parameters not yet doing what we want it to actually do, just setting the rules
+        - Arguments seem to be more like scientific engineering (actually running experiments with actual values and matter). Here is where it will actually preform the theoretical task with actual data
+    - Console.log
+        - Gives the results of what ever instructions in the terminal. 
+- General Reflections
+    - JS seems way easier to use than c#. Not having to define so many variables is nice considering you don’t have a massive list of variables floating around everywhere above your code. Just looking at this though it seems specific for the example given but I can see where the freedom of JS can kind of become a detriment if we don’t use ‘best practices’ especially when working on more complex projects. 
+
 	
