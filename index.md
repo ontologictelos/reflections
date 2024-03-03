@@ -14,7 +14,7 @@
 
 - There was a small bit on “a program is a building of thought”. This is really interesting language to describe what we see and build on the web as bringing our thoughts and ideas into a tangible experiential thing. In writing there are all these words, grammar, and structures we follow so that our thoughts and ideas are recognizable and understandable to others. In the same way when we think about “best practices” as these sort of rules (the same rules that writers follow) that make our code intelligible to others. As with writers only after mastering the craft of writing can they break these rules and even create new one that translate meaning through writing structure alone. In the same way only when we master these “best practice” rules can programmers (coders, is there a difference?) do/ make interesting things.
 
-# **_Reflections Tuesday 02, 2024_**
+## **_Reflections Tuesday 02, 2024_**
 
 ## Reflections on JavaScript
 
