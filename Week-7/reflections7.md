@@ -15,3 +15,17 @@
 - Im excited to know that `const` doesn't mean constant (at least in the grand scheme of things). Just knowing categorically where we are (primitive data types) and that what we are learning is going to be built upon in more complex ways in the future is exciting. Hopefully we will get to I guess non-primitive data types or advanced data types in this class.
 
 - As a general reflection I struggled last assignment with `js` and it seemed like i was struggling mainly with the syntax just knowing what js tags to use to get the program to do what I want. Turns out i was really over thinking it considering the video of adding numbers together just showed me how to do it. but I forsee myself struggling with the free flowing nature of `js` luckily lint will be there to save the day. But the logic of `js` makes sense just in terms of how the 'sentence' or code is written out.
+
+## Summarized notes
+
+- `const` is equatable to marriage. In the example `const name = john` name will always be tied to john. I would assume even if we say `let name = sam` the computer will still spit out john sense const should override let.
+
+- `let` is equatable to dating. More like open dating. With this tag let can mean anything and can change unlike `const` where it will always be the same or tied to a specific variable.
+
+- `booleans` deal with true or false statements and will always be used to compare two different things to give a certain outcome or response.
+
+- `primitive data types` refer to single pieces of information. example: `const age=18` this refers to one single iota of information. Interestingly the categorization of primitive data types indicates the existence of other data types. Logically one piece of information can actually mean different things based on the context and how it is used. A hammer can be used to hammer things into place (this is one function) while also be used to dislodge pieces from their place (another function). The hammer is the same data type but is used differently based on context. I imagine this is how another data type would be used. With this analogy though the hammer would not be a primitive data type but something other as primitive data types are immutable.
+
+- It seems as though the `const` tag makes something primitive as then it takes on a immutable nature. Does `let` make something a different data type?
+
+- `;` are periods. Lint encourages us to be grammatically correct. I would assume this is considered one of those "best practices".
