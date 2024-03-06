@@ -157,3 +157,51 @@ fig.2
 `==` : this logical operant is a loose comparison. This operant will compare just about anything. Logically this will not result in accurate true or false statements.
 
 `=` : this operant is strictly used to assign value to a variable
+
+## Thursday 07/03/2024 Reflections
+
+### Eloquent JavaScript
+
+Firstly, based off of reading the intro and the first chapter, I really appreciate this text. The text categorically presents information in a way that is coherent and easy to understand, i've also found this to be how I remember things best.
+
+As for my actual reflections, it seems as though this goes over in more detail what tuesdays homework goes over. That being said I will go into more detail on things that we either did not discuss or things that were covered that I thought were not as important but have a new understanding of.
+
+Interestingly, the author also introduces this idea of "defensive" coding (though not explicitly). Which is an interesting thought, I would figure this is akin to something of "best practices" that sort of save us from dumb problems that can be avoided. I got this "defensive" coding idea from the section Automatic Type Conversion in the last paragraph.
+
+>" I recommend using the three character comparison operators defensively to prevent unexpected type conversions tripping you up"
+
+A very useful tip. Although you eluded to this tip in your video when going over comparison operators.
+
+#### Unary operators
+
+The text introduces the `typeof` operator.
+
+> "...the `typeof` operator, which produces a string value naming the type of value you give it"
+
+``` JavaScript
+    console.log (
+        typeof 4.5
+    ) // this produces the number 4.5
+
+    console.log (
+        typeof "x"
+    ) //this produces a the string x
+```
+
+What confuses me on this is why does it even exist? we can just define strings and numbers anyway. I am just unsure of what use this actually is considering it can only take one operant.
+
+#### Boolean values, comparisons
+
+While reading the text I actually was wondering if strings could be compared considering each character is translated into binary giving it a numerical value. Seeing how strings can be compared is really  interesting. While this is just for the computer to compare and store values as letters into memory I imagine there is some interesting stuff one can do with this information. I would imagine ai does something with this in regards of storing words as numbers and assigning value to them such as verb, noun, or adjective in order to generate sentences. Probably wrong on this but an interesting thought.
+
+notes: Upper case letters are worth less than lowercase letters
+
+#### Short circuiting of logical operators
+
+This was something I feel I skimmed over with Tuesdays homework. This is just a logical breakdown of the steps `js` goes through when using logical operators. Super interesting.
+
+When using the `||` operator it reads left to right. Once `js` evaluates the left value, if that value is true then it just returns true without even evaluating the value to it's right. Only when the value to the operants left is false will it evaluate the right value.
+
+While using the `&&` operator it still reads left to right but if the value to its left is false it returns false without ever evaluating the value to it's right. If the value to it's left is evaluated as true then and only then does it evaluate the value to it's right. Both must be true to give the return as a true statement otherwise it will be false.
+
+> "Another important property of these two operators is that the expression to their right is evaluated only when necessary"
